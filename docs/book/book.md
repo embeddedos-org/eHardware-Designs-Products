@@ -20,6 +20,9 @@ titlepage-background: "cover.png"
 
 ![Figure: eHardware System Architecture — PCB design through manufacturing](images/architecture.png)
 
+![Figure: eHardware Product Development Pipeline — concept through certification to mass production](images/product-pipeline.png)
+
+
 
 **By Srikanth Patchava & EmbeddedOS Contributors**
 
@@ -197,6 +200,9 @@ product-name/
 ## 1.4 Design Philosophy
 
 All eHardware products follow these core design principles:
+
+![Figure: eHardware PCB Design Flow — schematic capture through DRC to fabrication](images/design-flow.png)
+
 
 1. **Design for Manufacturing (DFM):** Every schematic decision considers
    manufacturability, component availability, and assembly yield.
