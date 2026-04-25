@@ -1,9 +1,9 @@
-# Products-HW-designs
+# eHardware-Designs-Products
 
 [![License](https://img.shields.io/badge/license-Proprietary-red)](LICENSE)
-[![CI](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/ci.yml/badge.svg)](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/codeql.yml/badge.svg)](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/codeql.yml)
-[![Scorecard](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/scorecard.yml/badge.svg)](https://github.com/embeddedos-org/Products-HW-designs/actions/workflows/scorecard.yml)
+[![CI](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/ci.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/codeql.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/codeql.yml)
+[![Scorecard](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/scorecard.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/scorecard.yml)
 
 Hardware designs, EE documentation, and board datasheets for EmbeddedOS products.
 
@@ -12,6 +12,8 @@ Hardware designs, EE documentation, and board datasheets for EmbeddedOS products
 | Product | Description | Status |
 |---------|-------------|--------|
 | `eRadar360_CAD/` | Next-gen driver awareness radar system — 120mm × 85mm, 10-layer hybrid PCB | Active |
+| `ePower_sequencing_family_CAD/` | Power sequencing and management board family | Active |
+| `eHealth365_CAD_Design/` | Two-device health monitoring system — Smart Ring Pro + Smart Patch Pro with 3D models | Active |
 
 ## What's Included
 
@@ -32,8 +34,8 @@ Each product directory contains:
 
 ```bash
 # Clone the repository
-git clone https://github.com/embeddedos-org/Products-HW-designs.git
-cd Products-HW-designs
+git clone https://github.com/embeddedos-org/eHardware-Designs-Products.git
+cd eHardware-Designs-Products
 
 # Open a schematic in KiCad
 kicad eRadar360_CAD/eradar360.kicad_sch

@@ -1,0 +1,17 @@
+Reference,Value,Package,Manufacturer,MPN,Description,Qty,Unit Cost
+U1,nRF52840,QFN-73,Nordic Semiconductor,nRF52840-QIAA-T,BLE 5.3 SoC with FPU,1,$3.50
+U2,AD5940,LFCSP-56,Analog Devices,AD5940BCPZ-RL7,High-precision analog front-end (bioZ + ISE),1,$8.50
+U3,ADS1292R,TQFP-32,Texas Instruments,ADS1292RIPBS,24-bit 2-channel ADC (CGM),1,$5.20
+U4,LMP91000,DSBGA-14,Texas Instruments,LMP91000TMX/NOPB,Potentiostat AFE (electrochemical),1,$2.80
+U5,TMP117,WSON-6,Texas Instruments,TMP117MAIDRVR,±0.1°C digital temp sensor,1,$1.50
+U6,Cartridge ctrl,QFN-16,Custom,N/A,Cartridge interface controller,1,$1.00
+J1,Pogo connector,6-pin,Mill-Max,0985-0-15-20-71-14-11-0,Spring-loaded cartridge connector,6,$0.80
+BT1,65mAh,Custom,Renata,CR1220 variant,3.0V silver oxide (custom shape),1,$1.20
+ANT1,BLE antenna,Chip,Johanson,2450AT18D0100T,2.4 GHz chip antenna,1,$0.15
+SENSOR1,CGM array,Custom,Custom,N/A,Glucose oxidase micro-needle array,1,$8.00
+SENSOR2,ISE array,Custom,Custom,N/A,4-channel ion-selective electrode,1,$5.00
+SENSOR3,ISFET pH,Die,Custom,N/A,Ion-sensitive FET,1,$2.00
+E1-E4,BioZ electrodes,Pad,Custom,N/A,Gold-plated bioimpedance pads,4,$0.50
+ADHESIVE,Hydrogel,35mm disc,3M,2477P,Medical adhesive backing,1,$0.80
+C1-C15,Various,0201/0402,Murata,Various,Decoupling capacitors,15,$0.01
+R1-R12,Various,0201,Yageo,Various,Resistors,12,$0.005
