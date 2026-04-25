@@ -1,0 +1,28 @@
+Reference,Category,Description,Qty,Unit Cost,Total
+FRAME,Airframe,Titanium/carbon-fiber lifting body + delta wings,1,$320000,$320000
+TPS,Thermal,Silicon carbide ceramic TPS tiles (windward surfaces),1,$260000,$260000
+ROCKET_HYB,Propulsion,Hybrid rocket motor (HTPB + N2O) 120kN,1,$85000,$85000
+ROCKET_SOL,Propulsion,Solar-thermal rocket engine (H2 propellant) 25kN,1,$120000,$120000
+CONC,Propulsion,Inflatable parabolic solar concentrator (5m Mylar),1,$45000,$45000
+RCS,Propulsion,Cold gas N2 thruster (attitude control),16,$4500,$72000
+TANKS_H2,Propulsion,Liquid hydrogen storage tank (carbon-fiber),2,$35000,$70000
+TANKS_N2O,Propulsion,N2O oxidizer tank,2,$8000,$16000
+TANKS_N2,Propulsion,Nitrogen RCS tank (high-pressure),4,$3000,$12000
+AVIONICS,Avionics,ULP-SSN board (Kintex FPGA + Apollo4 MCU) triple-redundant,3,$40000,$120000
+NAV,Avionics,INS + star tracker + GPS/Galileo,1,$35000,$35000
+COMM,Avionics,UHF/VHF + S-band + satellite uplink,1,$25000,$25000
+XPDR,Avionics,ADS-B + IFF transponder,1,$8000,$8000
+SOLAR,Power,Deployable GaAs triple-junction panels (24m2),1,$100000,$100000
+BATT,Power,40kWh solid-state battery (avionics + life support),1,$6000,$6000
+FC,Power,15kW PEM H2 fuel cell (backup + water recovery),1,$12000,$12000
+LIFE_O2,Life support,O2 supply system (tanks + electrolysis),1,$25000,$25000
+LIFE_CO2,Life support,CO2 scrubber (LiOH + molecular sieve),1,$15000,$15000
+THERMAL,Life support,Active thermal control (radiators + heaters),1,$30000,$30000
+RAD,Life support,Radiation shielding (polyethylene panels),1,$18000,$18000
+WINDOWS,Structure,Fused silica triple-pane windows (1650C rated),5,$8000,$40000
+SEATS,Interior,G-rated reclining seats with harness,4,$5000,$20000
+LANDING,Structure,VTOL landing gear (retro-thrust capable),1,$25000,$25000
+ABORT,Safety,Crew abort/ejection system,1,$60000,$60000
+BPS,Safety,Ballistic parachute (backup),1,$15000,$15000
+INTEG,Assembly,Integration test and QC (clean-room),1,$150000,$150000
+TOTAL,,,,,~$1710000

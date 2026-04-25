@@ -1,0 +1,26 @@
+Reference,Category,Description,Qty,Unit Cost,Total
+FRAME,Airframe,Recycled aluminum unibody + 3D-printed polymer panels,1,$3500,$3500
+MOTOR,Powertrain,Dual PMSM motor (100kW each),2,$1200,$2400
+INVERTER,Powertrain,SiC inverter (200kW),2,$600,$1200
+GEARBOX,Powertrain,Single-speed reduction gear,2,$200,$400
+BATT,Power,75kWh solid-state lithium pack (floor-mounted),1,$9500,$9500
+BMS,Power,Battery management system (108S),1,$600,$600
+SOLAR,Power,Perovskite/Si tandem solar panels (6m2 roof+hood+trunk),1,$1200,$1200
+MPPT,Power,Maximum power point tracker (solar),1,$150,$150
+CHARGER,Power,400V DC on-board charger (11kW AC + 250kW DC),1,$800,$800
+FC,Power (opt),30kW PEM H2 fuel cell + 3kg Type IV tank,1,$3200,$3200
+ELEC,Power (opt),2kW on-board electrolyzer (solar-to-H2),1,$800,$800
+VCU,Electronics,Vehicle control unit (EoS RTOS ARM Cortex-R52),1,$180,$180
+DISPLAY,Electronics,15-inch center touchscreen + HUD projector,1,$350,$350
+ADAS,Electronics,Camera x6 + ultrasonic x12 + radar x1,1,$900,$900
+COMM,Electronics,5G-NR modem + V2X + BLE 5.3,1,$250,$250
+SEAT,Interior,Sustainable material seats (plant-leather),5,$200,$1000
+GLASS,Body,Low-E double-pane windshield + solar-coated windows,1,$400,$400
+HVAC,Climate,Heat pump HVAC (bidirectional),1,$600,$600
+WHEELS,Chassis,19-inch aero-optimized wheels + tires,4,$150,$600
+BRAKE,Chassis,Brake-by-wire (regen primary + friction backup),4,$120,$480
+STEER,Chassis,Steer-by-wire (redundant),1,$350,$350
+SUSPEND,Chassis,Adaptive air suspension,4,$200,$800
+WIRING,Electrical,48V/400V harness + CAN-FD bus,1,$800,$800
+TOTAL,,Standard variant (no H2),,,~$26500
+TOTAL_H2,,H2 hybrid variant (with fuel cell + electrolyzer),,,~$30500
