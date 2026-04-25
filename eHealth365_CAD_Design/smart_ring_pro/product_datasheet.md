@@ -11,9 +11,9 @@ The Smart Ring Pro is the "Vitality Hub" of the eHealth365 system. Worn continuo
 | **Form factor** | Ring — sizes 6-13 (US) |
 | **Chassis material** | Grade 5 Titanium (outer) / Ceramic (inner variant) |
 | **Inner band** | Medical-grade silicone with sensor windows |
-| **Weight** | 4.2g (titanium) / 3.8g (ceramic) |
+| **Weight** | 4g (titanium) / 3.8g (ceramic) |
 | **Width** | 8mm |
-| **Thickness** | 2.6mm |
+| **Thickness** | 2.5mm |
 | **Water resistance** | IP68 — 100m / 10 ATM |
 | **Operating temp** | 0°C to 45°C |
 | **Display** | None (haptic-only feedback) |

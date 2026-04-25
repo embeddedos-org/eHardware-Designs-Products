@@ -10,8 +10,8 @@ The Smart Patch Pro is the "Chemistry Hub" of the eHealth365 system. Worn on the
 |-----------|--------------|
 | **Form factor** | Circular adhesive patch — "puck" design |
 | **Diameter** | 35mm |
-| **Thickness** | 5.5mm (sensor dome) |
-| **Weight** | 8.5g (without adhesive backing) |
+| **Thickness** | 3.5mm (low-profile) |
+| **Weight** | 6.2g (without adhesive backing) |
 | **Adhesive** | Medical-grade hydrogel (3M 2477P) |
 | **Water resistance** | IP67 — shower & swim safe |
 | **Operating temp** | 15°C to 40°C (body-worn) |
