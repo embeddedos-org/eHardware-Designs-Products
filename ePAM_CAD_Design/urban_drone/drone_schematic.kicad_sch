@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid "epam-urban-drone-001")
+  (paper "A2")
+  (title_block
+    (title "ePAM Urban Drone - Flight Controller + Power Distribution")
+    (date "2026-04-25")
+    (rev "0.1")
+    (company "EmbeddedOS Organization")
+    (comment 1 "4-seat eVTOL - 8x tilt-rotor DEP")
+    (comment 2 "Triple-redundant EoS RTOS flight controller")
+    (comment 3 "800V battery + 120kWh solid-state + solar MPPT")
+  )
+)

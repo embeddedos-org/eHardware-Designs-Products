@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid "epam-eco-car-001")
+  (paper "A2")
+  (title_block
+    (title "ePAM Eco Car - Vehicle Control Unit + BMS")
+    (date "2026-04-25")
+    (rev "0.1")
+    (company "EmbeddedOS Organization")
+    (comment 1 "4-5 seat solar-hybrid ground vehicle")
+    (comment 2 "75kWh solid-state battery + 6m2 perovskite solar")
+    (comment 3 "Dual PMSM motor control + H2 fuel cell interface")
+  )
+)

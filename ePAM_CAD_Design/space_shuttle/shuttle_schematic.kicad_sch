@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid "epam-space-shuttle-001")
+  (paper "A1")
+  (title_block
+    (title "ePAM Space Shuttle - Avionics + Propulsion Control")
+    (date "2026-04-25")
+    (rev "0.1")
+    (company "EmbeddedOS Organization")
+    (comment 1 "4-seat suborbital reusable launch vehicle")
+    (comment 2 "Solar-thermal rocket + hybrid boost motor")
+    (comment 3 "Life support + RCS + thermal protection monitoring")
+  )
+)

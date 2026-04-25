@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid "epam-combo-unit-001")
+  (paper "A1")
+  (title_block
+    (title "ePAM Combo Unit - Trans-Atmospheric Flight Controller")
+    (date "2026-04-25")
+    (rev "0.1")
+    (company "EmbeddedOS Organization")
+    (comment 1 "4-seat trans-atmospheric hybrid (eVTOL + suborbital)")
+    (comment 2 "Dual-mode: 8x tilt-rotor (drone) + solar-thermal rocket (space)")
+    (comment 3 "Mode transition controller + retractable rotor mechanism")
+  )
+)

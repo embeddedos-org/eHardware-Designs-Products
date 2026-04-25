@@ -1,0 +1,23 @@
+Reference,Category,Description,Qty,Unit Cost,Total
+FRAME,Airframe,Carbon-fiber/aerogel composite fuselage + wings,1,$12000,$12000
+MOTOR,Propulsion,50kW PMSM tilt-rotor motor,8,$800,$6400
+PROP,Propulsion,1.5m 5-blade variable pitch propeller,8,$350,$2800
+ESC,Propulsion,50kW motor controller (FOC),8,$250,$2000
+TILT,Propulsion,Tilt actuator mechanism (0-90 deg),8,$400,$3200
+BATT,Power,120kWh solid-state lithium pack,1,$18000,$18000
+SOLAR,Power,Perovskite/Si tandem solar panel (18m2),1,$5400,$5400
+BMS,Power,Battery management system (120S),1,$800,$800
+CHARGER,Power,400V DC on-board charger,1,$1200,$1200
+FC1,Avionics,Triple-redundant flight controller (EoS RTOS),1,$2500,$2500
+NAV,Avionics,GPS/INS/SLAM navigation module,1,$1800,$1800
+LIDAR,Avionics,LiDAR sensor (obstacle avoidance),8,$600,$4800
+CAM,Avionics,Wide-angle camera (360-deg coverage),12,$80,$960
+COMM,Avionics,5G-NR + satellite transceiver,1,$1500,$1500
+XPDR,Avionics,ADS-B Mode S transponder,1,$800,$800
+BPS,Safety,Ballistic parachute system,1,$3500,$3500
+SEAT,Interior,Lightweight carbon-fiber seat,4,$400,$1600
+GLASS,Interior,Electrochromic canopy glass,1,$2000,$2000
+DISPLAY,Interior,15-inch passenger touchscreen,1,$500,$500
+LANDING,Structure,Retractable landing gear (electric),1,$1500,$1500
+WIRING,Electrical,High-voltage harness + connectors,1,$2000,$2000
+TOTAL,,,,,~$75000
