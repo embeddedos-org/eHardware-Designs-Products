@@ -11,6 +11,9 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   # ═══════════════════════════════════════════════════
   # 1. VALIDATE KICAD SCHEMATICS
@@ -18,7 +21,6 @@ jobs:
   validate-kicad:
     name: Validate KiCad Schematics
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
 
@@ -172,7 +174,6 @@ jobs:
   validate-docs:
     name: Validate Documentation
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
 
@@ -201,6 +202,13 @@ jobs:
 
       - name: Check product READMEs exist
         run: |
+          for dir in eHealth365_CAD_Design ePAM_CAD_Design \
+                     eHealth365_CAD_Design/smart_ring_pro \
+                     eHealth365_CAD_Design/smart_patch_pro \
+                     ePAM_CAD_Design/eco_car \
+                     ePAM_CAD_Design/urban_drone \
+                     ePAM_CAD_Design/space_shuttle \
+                     ePAM_CAD_Design/combo_unit; do
             if [ -f "$dir/README.md" ]; then
               echo "OK: $dir/README.md"
             else

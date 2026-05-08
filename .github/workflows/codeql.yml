@@ -18,17 +18,19 @@ permissions:
   security-events: write
 
 jobs:
-  analyze:
-    name: Analyze (Python)
+  # eCAD-Hardware-Products is a KiCad/CAD repository — no Python or C/C++ source.
+  # CodeQL Actions analysis is the only meaningful security scan here.
+  analyze-actions:
+    name: Analyze (GitHub Actions)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v4
+        uses: github/codeql-action/init@v3
         with:
-          languages: python
+          languages: actions
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v4
+        uses: github/codeql-action/analyze@v3
         with:
-          category: "/language:python"
+          category: "/language:actions"

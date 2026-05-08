@@ -1,35 +1,37 @@
-# Binary files
-*.pdf binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.bmp binary
-*.svg binary
-*.stl binary
-*.step binary
-*.stp binary
-*.iges binary
-*.igs binary
-*.dxf binary
-*.dwg binary
-*.kicad_pcb binary
-*.kicad_sch binary
-*.brd binary
-*.sch binary
-*.gbr binary
-*.gbl binary
-*.gtl binary
-*.gbs binary
-*.gts binary
-*.gbo binary
-*.gto binary
-*.drl binary
-*.hex binary
-*.bin binary
-*.elf binary
-*.zip binary
-*.tar.gz binary
-*.3dshapes binary
-*.wrl binary
-*.pretty binary
+# Git LFS — large binary CAD assets
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.iges filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
+*.dwg filter=lfs diff=lfs merge=lfs -text
+*.kicad_pcb filter=lfs diff=lfs merge=lfs -text
+*.kicad_sch filter=lfs diff=lfs merge=lfs -text
+*.brd filter=lfs diff=lfs merge=lfs -text
+*.sch filter=lfs diff=lfs merge=lfs -text
+*.gbr filter=lfs diff=lfs merge=lfs -text
+*.gbl filter=lfs diff=lfs merge=lfs -text
+*.gtl filter=lfs diff=lfs merge=lfs -text
+*.gbs filter=lfs diff=lfs merge=lfs -text
+*.gts filter=lfs diff=lfs merge=lfs -text
+*.gbo filter=lfs diff=lfs merge=lfs -text
+*.gto filter=lfs diff=lfs merge=lfs -text
+*.drl filter=lfs diff=lfs merge=lfs -text
+*.hex filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.elf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.3dshapes filter=lfs diff=lfs merge=lfs -text
+*.wrl filter=lfs diff=lfs merge=lfs -text
+*.pretty filter=lfs diff=lfs merge=lfs -text
+
+# SVG kept as text (vector source files)
+*.svg text
