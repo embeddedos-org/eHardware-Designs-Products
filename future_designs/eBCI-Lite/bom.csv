@@ -1,0 +1,7 @@
+Reference,Description,Qty,Cost (USD)
+U1,"nRF5340 BLE SoC",1,8.20
+U2,"ADS1299 8-ch EEG ADC",1,31.20
+E1-E8,"Dry gold spring electrode",8,4.10
+U3,"BNO086 IMU",1,7.10
+BAT1,"3.7 V 600 mAh LiPo",1,3.20
+FRAME,"TPE flexible headband + housing",1,14.00

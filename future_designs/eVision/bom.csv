@@ -1,0 +1,9 @@
+Reference,Description,Qty,Cost (USD)
+U1,"STM32H743VIT6 480 MHz MCU",1,6.20
+U2-U5,"VL53L7CX time-of-flight 90° array",4,4.80
+U6,"BNO086 9-DOF IMU",1,7.10
+U7-U14,"DRV2605L LRA haptic driver",8,2.10
+LRA1-8,"Linear resonant actuator 10 mm",8,1.60
+U15,"nRF52840 BLE module",1,5.40
+BAT1,"3.7 V 1500 mAh LiPo",1,4.30
+M1,"PCB + enclosure injection mould",1,18.00

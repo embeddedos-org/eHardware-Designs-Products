@@ -1,0 +1,10 @@
+Reference,Description,Qty,Cost (USD)
+U1,"STM32WL55JCI6 LoRa MCU",1,5.90
+U2,"Capacitive soil moisture+EC probe",1,8.10
+U3,"SHT41 T/RH",1,1.60
+U4,"BH1750 lux sensor",1,0.90
+U5,"SCD41 NDIR CO₂",1,26.00
+U6,"2.13" e-paper display",1,7.40
+PV1,"0.5 W 6 V solar panel",1,3.80
+BAT1,"18650 LiFePO4 1500 mAh",1,5.20
+ENC,"IP67 PC enclosure",1,6.20

@@ -1,0 +1,8 @@
+Reference,Description,Qty,Cost (USD)
+U1,"STM32H743ZI",1,7.40
+U2,"ADS1299 8-ch 24-bit EMG ADC",1,31.20
+M1-M6,"Dynamixel XL330 servo",6,38.00
+FSR1-5,"Force sensing resistor 0.5 inch",5,6.50
+U3,"BQ40Z80 battery management IC",1,4.90
+BAT1,"7.4 V 2200 mAh LiPo",1,18.00
+SOC,"PETG socket print + sleeve",1,22.00

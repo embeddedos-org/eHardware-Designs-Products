@@ -1,0 +1,10 @@
+Reference,Description,Qty,Cost (USD)
+U1,"STM32U585 ULP MCU",1,7.80
+S1,"Atlas pH probe + carrier board",1,78.00
+S2,"SEN0189 turbidity probe",1,9.10
+S3,"Atlas EC probe + carrier",1,89.00
+S4,"DS18B20 waterproof temp probe",1,4.20
+U2,"Quectel BG95 LTE-M module",1,18.00
+PV1,"5 W 6 V solar panel",1,12.00
+BAT1,"LiFePO4 6 Ah pack",1,22.00
+ENC,"Marine-grade buoy housing",1,28.00

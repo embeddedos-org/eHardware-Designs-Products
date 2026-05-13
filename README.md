@@ -1,10 +1,10 @@
-# eHardware-Designs-Products
+# eCAD-Hardware-Products
 
-[![CI](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/ci.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/codeql.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/codeql.yml)
-[![Scorecard](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/scorecard.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/scorecard.yml)
+[![CI](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/ci.yml/badge.svg)](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/codeql.yml/badge.svg)](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/codeql.yml)
+[![Scorecard](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/scorecard.yml/badge.svg)](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/scorecard.yml)
 [![License](https://img.shields.io/badge/license-Proprietary-red)](LICENSE)
-[![Book](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/book-build.yml/badge.svg)](https://github.com/embeddedos-org/eHardware-Designs-Products/actions/workflows/book-build.yml)
+[![Book](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/book-build.yml/badge.svg)](https://github.com/embeddedos-org/eCAD-Hardware-Products/actions/workflows/book-build.yml)
 
 Hardware designs, schematics, PCB layouts, 3D models, BOMs, and product datasheets for the EmbeddedOS hardware product line.
 
@@ -16,6 +16,51 @@ Hardware designs, schematics, PCB layouts, 3D models, BOMs, and product datashee
 | [\PAM_CAD_Design/\](ePAM_CAD_Design/) | Personal Air Mobility — 4 solar-hybrid vehicles (Urban Drone, Space Shuttle, Eco Car, Combo Unit) + mobile app | 4 vehicles + app | Active |
 
 > **Note:** eRadar360 has moved to its own repository: [embeddedos-org/eRadar360_CAD](https://github.com/embeddedos-org/eRadar360_CAD)
+
+## 🌟 Future Designs (Donor Showcase)
+
+Ten concept-stage hardware products spanning health & accessibility, climate &
+food, education & research, and infrastructure & frontier. Each lives as a
+browseable directory under [`future_designs/`](future_designs/) with a
+concept datasheet, BOM placeholder, and a one-page donor business plan —
+enough for sponsors to evaluate before any silicon is committed.
+
+### ❤️ Health, Accessibility, Dignity
+
+| | Design | Pitch | Donor tier |
+|---|---|---|---|
+| 👓 | [`eVision`](future_designs/eVision/) | Wearable obstacle-detection band for blind / low-vision users (~$200 BOM vs $4 K commercial). | $5 K — 25 production units for a school for the blind. |
+| 🤖 | [`eHand`](future_designs/eHand/) | Open-source 6-DOF myoelectric prosthetic hand (~$1.5 K BOM vs $30–60 K commercial). | $2 K — one full eHand build per recipient. |
+| 🧠 | [`eBCI-Lite`](future_designs/eBCI-Lite/) | 8-channel dry-EEG headband + AAC keyboard for ALS / locked-in patients (~$300 BOM vs $15 K commercial). | $10 K — 30 evaluation units for one neurology clinic. |
+
+### 🌍 Climate, Food, Water
+
+| | Design | Pitch | Donor tier |
+|---|---|---|---|
+| 🌾 | [`eFarm`](future_designs/eFarm/) | Solar-powered LoRaWAN soil/crop sensor mesh for smallholder farmers (~$40 per node + $120 gateway). | $1 K — 25-acre cooperative farm. |
+| 💧 | [`eHydro`](future_designs/eHydro/) | Community water-quality buoy + public dashboard (~$250 BOM, advisory data only). | $3 K — 10-buoy mesh on a contested river basin for a year. |
+| 🐝 | [`eHive`](future_designs/eHive/) | Acoustic + climate beehive monitor classifying healthy / queenless / swarming / collapsing colonies (~$90 BOM). | $500 — 5-hive community apiary for two years. |
+
+### 🤖 Robotics, Education, Research
+
+| | Design | Pitch | Donor tier |
+|---|---|---|---|
+| 🚙 | [`eRover-Mini`](future_designs/eRover-Mini/) | $400 open-source autonomous research rover (TurtleBot alternative). | $2 K — 5 rovers for a university lab. |
+| 🎓 | [`eEdu-Kit`](future_designs/eEdu-Kit/) | Classroom-ready all-in-one STEM dev board + 12-week curriculum (~$25 BOM). | $1 K — one classroom of 30 + curriculum. |
+
+### ⚡ Infrastructure & Frontier
+
+| | Design | Pitch | Donor tier |
+|---|---|---|---|
+| ⚡ | [`eMeshGrid`](future_designs/eMeshGrid/) | Off-grid micro-grid controller for community solar + battery + inverter (~$1.2 K controller). | $25 K — 1 controller + 30 kWh battery + solar for a 200-person village. |
+| 🛰️ | [`eCubeSat-1U`](future_designs/eCubeSat-1U/) | 1U CubeSat reference design with EmbeddedOS as flight software (~$8 K hw + ~$30 K ride-share launch). | $30 K — sponsor one student-built satellite from build to launch. |
+
+> **Canon impact: zero.** All ten designs live under `future_designs/` and
+> are explicitly excluded from the canonical 13-product / 14-book roster
+> until they graduate to a top-level CAD directory with a working KiCad
+> schematic, real BOM, and integration smoke test. See
+> [`future_designs/README.md`](future_designs/README.md) for the graduation
+> checklist.
 
 ## Product Summary
 
@@ -53,7 +98,8 @@ Each product directory contains:
 
 ## Repository Structure
 
-\eHardware-Designs-Products/
+```
+eCAD-Hardware-Products/
 ├── eHealth365_CAD_Design/
 │   ├── smart_ring_pro/                  Smart Ring Pro (finger, 24/7)
 │   │   ├── ring_schematic.kicad_sch
@@ -116,8 +162,8 @@ Each product directory contains:
 
 \\ash
 # Clone the repository
-git clone https://github.com/embeddedos-org/eHardware-Designs-Products.git
-cd eHardware-Designs-Products
+git clone https://github.com/embeddedos-org/eCAD-Hardware-Products.git
+cd eCAD-Hardware-Products
 
 # Open a schematic in KiCad
 kicad eHealth365_CAD_Design/smart_ring_pro/ring_schematic.kicad_sch

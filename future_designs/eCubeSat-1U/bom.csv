@@ -1,0 +1,10 @@
+Reference,Description,Qty,Cost (USD)
+FRAME,"1U Al-6061 CubeSat structure",1,1200.00
+U1,"Kintex Ultrascale FPGA (rad-tol)",1,2200.00
+U2,"Apollo4 Plus MCU",1,12.00
+PV1-4,"GaAs deployable solar wing",4,380.00
+TRQ1-3,"Magnetorquer rod",3,220.00
+U3,"ADCS magnetometer (HMC5883)",1,11.00
+U4,"RFM95 + UHF PA chain",1,78.00
+U5,"Camera (visible) + lens",1,110.00
+BAT1,"Li-ion 4-cell rad-tol pack",1,320.00

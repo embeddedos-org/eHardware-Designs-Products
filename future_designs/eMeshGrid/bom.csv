@@ -1,0 +1,9 @@
+Reference,Description,Qty,Cost (USD)
+U1,"XC7K70T Kintex-7 FPGA",1,88.00
+U2,"Apollo4 Plus Cortex-M4",1,7.40
+K1-K3,"3-phase 40 A motorised contactor",3,32.00
+U3-U5,"HCPL-7510 isolated V sense",3,6.20
+U6-U8,"ACS758 200 A current sense",3,8.40
+U9,"BG95 LTE-M modem",1,18.00
+ENC,"IP65 polycarbonate enclosure",1,88.00
+FUSE,"Reverse-current 200 A DC fuse",1,22.00
