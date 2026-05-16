@@ -151,7 +151,7 @@ class ProductPromo(Scene):
         cta_line = Line(LEFT*2, RIGHT*2, color=ACCENT, stroke_width=3)
         cta_line.next_to(cta_name, DOWN, buff=0.3)
         cta_url = Text(
-            "github.com/embeddedos-org/eHardware-Designs-Products",
+            "github.com/embeddedos-org/eCAD-Hardware-Products",
             font_size=22, color=ManimColor(ACCENT),
         )
         cta_url.next_to(cta_line, DOWN, buff=0.3)

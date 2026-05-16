@@ -14,7 +14,7 @@ SEGMENTS = [
     {"id": "f2", "text": "Feature two. FPGA Reference Designs. Synthesizable HDL for Xilinx and Lattice FPGAs with testbenches."},
     {"id": "f3", "text": "Feature three. Manufacturing Automation. Automated BOM generation, DRC checks, and Gerber export pipelines."},
     {"id": "arch", "text": "Under the hood, eHardware is built with KiCad, Verilog, and Python. The architecture flows from Schematic, to Layout, to DRC, to BOM Gen, to Gerber Export."},
-    {"id": "cta", "text": "eHardware. Open source hardware for everyone. Visit github dot com slash embeddedos-org slash eHardware."}
+    {"id": "cta", "text": "eCAD Hardware Products. Open source hardware for everyone. Visit github dot com slash embeddedos-org slash eCAD dash Hardware dash Products."}
 ]
 
 
